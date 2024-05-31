@@ -1,0 +1,44 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="studentManage.stu.MasterPage" %>
+
+<!DOCTYPE html>
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>学生科技作品展示平台学生端</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="res/css/masterPage.css" rel="stylesheet" />
+    <link href="res/css/Person.css" rel="stylesheet" />
+    <link href="res/css/WorkInfo.css" rel="stylesheet" />
+    <link href="res/css/WorkPersonList.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="admin_top">
+            <div id="title">学生科技作品展示平台学生端</div>
+            <div id="account">
+                欢迎您：<%=strusername %>&nbsp;登录成功！您的学号：<%=strusernumber %>&nbsp;
+                <asp:LinkButton ID="btnExit" runat="server" OnClick="btnExit_Click" Text="退出" class="exit"></asp:LinkButton>
+            </div>
+        </div>
+        <div style="display: flex; margin-top: 20px;">
+            <div class="sidebar">
+                <a href="" class="blue">后台首页</a>
+                <a href="WorkInfo.aspx?action=add" class="blue">添加个人学生作品</a>
+                <a href="Person.aspx" class="blue">个人信息管理</a>
+                <a href="WorkPersonList.aspx" class="blue">查看个人作品</a>
+                <a href="WorkTuanDuiInfo.aspx?action=add" class="blue">添加团队学生作品</a>
+                <a href="WorkTuanDuiList.aspx" class="blue">查看团队学生作品</a>
+                <a href="Lama.aspx" class="blue">AI工具</a>
+            </div>
+            <div class="content">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+            </div>
+        </div>
+        <div class="footer">
+            <p>网上作业网上展示平台学生端</p>
+            <p>版权所有&copy; CopyRight2016</p>
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,300 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\\u65B0\u5EFA\u6587\u4EF6\u5939\\student\\studentManage\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9AAC389E-FE65-46DB-B642-D4ADC71FB33E}|..\\YFBLL\\SDM.BLL.csproj|d:\\\u65B0\u5EFA\u6587\u4EF6\u5939\\student\\yfbll\\sdm.bll.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4DD9DB0-4A03-4CCB-99B5-618FFC5AD5FC}|studis.csproj|d:\\\u65B0\u5EFA\u6587\u4EF6\u5939\\student\\studentmanage\\admin\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4DD9DB0-4A03-4CCB-99B5-618FFC5AD5FC}|studis.csproj|solutionrelative:admin\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7711B3B-F784-474F-904C-BA4EF68026C1}|..\\YFDAL\\SDM.DAL.csproj|d:\\\u65B0\u5EFA\u6587\u4EF6\u5939\\student\\yfdal\\admininfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AAC389E-FE65-46DB-B642-D4ADC71FB33E}|..\\YFBLL\\SDM.BLL.csproj|d:\\\u65B0\u5EFA\u6587\u4EF6\u5939\\student\\yfbll\\admininfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7711B3B-F784-474F-904C-BA4EF68026C1}|..\\YFDAL\\SDM.DAL.csproj|d:\\\u65B0\u5EFA\u6587\u4EF6\u5939\\student\\yfdal\\dbhelpersql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AAC389E-FE65-46DB-B642-D4ADC71FB33E}|..\\YFBLL\\SDM.BLL.csproj|d:\\\u65B0\u5EFA\u6587\u4EF6\u5939\\student\\yfbll\\studentsinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7711B3B-F784-474F-904C-BA4EF68026C1}|..\\YFDAL\\SDM.DAL.csproj|d:\\\u65B0\u5EFA\u6587\u4EF6\u5939\\student\\yfdal\\studentsinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4DD9DB0-4A03-4CCB-99B5-618FFC5AD5FC}|studis.csproj|d:\\\u65B0\u5EFA\u6587\u4EF6\u5939\\student\\studentmanage\\admin\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{A4DD9DB0-4A03-4CCB-99B5-618FFC5AD5FC}|studis.csproj|solutionrelative:admin\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4DD9DB0-4A03-4CCB-99B5-618FFC5AD5FC}|studis.csproj|d:\\\u65B0\u5EFA\u6587\u4EF6\u5939\\student\\studentmanage\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A4DD9DB0-4A03-4CCB-99B5-618FFC5AD5FC}|studis.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7711B3B-F784-474F-904C-BA4EF68026C1}|..\\YFDAL\\SDM.DAL.csproj|d:\\\u65B0\u5EFA\u6587\u4EF6\u5939\\student\\yfdal\\showinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6F569F7-2DCC-469C-8B2C-843D74EB20C0}|..\\YFModel\\SDM.Model.csproj|d:\\\u65B0\u5EFA\u6587\u4EF6\u5939\\student\\yfmodel\\admininfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4DD9DB0-4A03-4CCB-99B5-618FFC5AD5FC}|studentManage.csproj|D:\\\u65B0\u5EFA\u6587\u4EF6\u5939\\student\\studentManage\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A4DD9DB0-4A03-4CCB-99B5-618FFC5AD5FC}|studentManage.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4DD9DB0-4A03-4CCB-99B5-618FFC5AD5FC}|studis.csproj|D:\\\u65B0\u5EFA\u6587\u4EF6\u5939\\student\\studentManage\\stu\\workpersonlist.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{A4DD9DB0-4A03-4CCB-99B5-618FFC5AD5FC}|studis.csproj|solutionrelative:stu\\workpersonlist.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4DD9DB0-4A03-4CCB-99B5-618FFC5AD5FC}|studis.csproj|D:\\\u65B0\u5EFA\u6587\u4EF6\u5939\\student\\studentManage\\app_code\\del.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4DD9DB0-4A03-4CCB-99B5-618FFC5AD5FC}|studis.csproj|solutionrelative:app_code\\del.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7711B3B-F784-474F-904C-BA4EF68026C1}|..\\YFDAL\\SDM.DAL.csproj|d:\\\u65B0\u5EFA\u6587\u4EF6\u5939\\student\\yfdal\\worksinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6F569F7-2DCC-469C-8B2C-843D74EB20C0}|..\\YFModel\\SDM.Model.csproj|d:\\\u65B0\u5EFA\u6587\u4EF6\u5939\\student\\yfmodel\\studentinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\college\\ASP\\student\\SDM.Utility\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "login.aspx.cs",
+              "DocumentMoniker": "D:\\\u65B0\u5EFA\u6587\u4EF6\u5939\\student\\studentManage\\admin\\login.aspx.cs",
+              "RelativeDocumentMoniker": "admin\\login.aspx.cs",
+              "ToolTip": "D:\\\u65B0\u5EFA\u6587\u4EF6\u5939\\student\\studentManage\\admin\\login.aspx.cs",
+              "RelativeToolTip": "admin\\login.aspx.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAYwDMAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T01:00:50.23Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SDM.BLL",
+              "DocumentMoniker": "D:\\\u65B0\u5EFA\u6587\u4EF6\u5939\\student\\YFBLL\\SDM.BLL.csproj",
+              "RelativeDocumentMoniker": "..\\YFBLL\\SDM.BLL.csproj",
+              "ToolTip": "D:\\\u65B0\u5EFA\u6587\u4EF6\u5939\\student\\YFBLL\\SDM.BLL.csproj",
+              "RelativeToolTip": "..\\YFBLL\\SDM.BLL.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-29T02:05:03.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdminInfo.cs",
+              "DocumentMoniker": "D:\\\u65B0\u5EFA\u6587\u4EF6\u5939\\student\\YFDAL\\AdminInfo.cs",
+              "RelativeDocumentMoniker": "..\\YFDAL\\AdminInfo.cs",
+              "ToolTip": "D:\\\u65B0\u5EFA\u6587\u4EF6\u5939\\student\\YFDAL\\AdminInfo.cs",
+              "RelativeToolTip": "..\\YFDAL\\AdminInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T01:49:23.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StudentsInfo.cs",
+              "DocumentMoniker": "D:\\\u65B0\u5EFA\u6587\u4EF6\u5939\\student\\YFBLL\\StudentsInfo.cs",
+              "RelativeDocumentMoniker": "..\\YFBLL\\StudentsInfo.cs",
+              "ToolTip": "D:\\\u65B0\u5EFA\u6587\u4EF6\u5939\\student\\YFBLL\\StudentsInfo.cs",
+              "RelativeToolTip": "..\\YFBLL\\StudentsInfo.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAD4vzoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T01:44:27.016Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AdminInfo.cs",
+              "DocumentMoniker": "D:\\\u65B0\u5EFA\u6587\u4EF6\u5939\\student\\YFBLL\\AdminInfo.cs",
+              "RelativeDocumentMoniker": "..\\YFBLL\\AdminInfo.cs",
+              "ToolTip": "D:\\\u65B0\u5EFA\u6587\u4EF6\u5939\\student\\YFBLL\\AdminInfo.cs",
+              "RelativeToolTip": "..\\YFBLL\\AdminInfo.cs",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAYwEMAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T01:37:37.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DbHelperSQL.cs",
+              "DocumentMoniker": "D:\\\u65B0\u5EFA\u6587\u4EF6\u5939\\student\\YFDAL\\DbHelperSQL.cs",
+              "RelativeDocumentMoniker": "..\\YFDAL\\DbHelperSQL.cs",
+              "ToolTip": "D:\\\u65B0\u5EFA\u6587\u4EF6\u5939\\student\\YFDAL\\DbHelperSQL.cs",
+              "RelativeToolTip": "..\\YFDAL\\DbHelperSQL.cs",
+              "ViewState": "AQIAAJgAAAAAAAAAAAAAAA0AAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T01:11:44.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "login.aspx",
+              "DocumentMoniker": "D:\\\u65B0\u5EFA\u6587\u4EF6\u5939\\student\\studentManage\\admin\\login.aspx",
+              "RelativeDocumentMoniker": "admin\\login.aspx",
+              "ToolTip": "D:\\\u65B0\u5EFA\u6587\u4EF6\u5939\\student\\studentManage\\admin\\login.aspx",
+              "RelativeToolTip": "admin\\login.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-05-29T01:10:46.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "StudentsInfo.cs",
+              "DocumentMoniker": "D:\\\u65B0\u5EFA\u6587\u4EF6\u5939\\student\\YFDAL\\StudentsInfo.cs",
+              "RelativeDocumentMoniker": "..\\YFDAL\\StudentsInfo.cs",
+              "ToolTip": "D:\\\u65B0\u5EFA\u6587\u4EF6\u5939\\student\\YFDAL\\StudentsInfo.cs",
+              "RelativeToolTip": "..\\YFDAL\\StudentsInfo.cs",
+              "ViewState": "AQIAAAkBAAAAAAAAAAAMwBcBAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T00:48:33.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ShowInfo.cs",
+              "DocumentMoniker": "D:\\\u65B0\u5EFA\u6587\u4EF6\u5939\\student\\YFDAL\\ShowInfo.cs",
+              "RelativeDocumentMoniker": "..\\YFDAL\\ShowInfo.cs",
+              "ToolTip": "D:\\\u65B0\u5EFA\u6587\u4EF6\u5939\\student\\YFDAL\\ShowInfo.cs",
+              "RelativeToolTip": "..\\YFDAL\\ShowInfo.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAYwA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T00:48:33.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AdminInfo.cs",
+              "DocumentMoniker": "D:\\\u65B0\u5EFA\u6587\u4EF6\u5939\\student\\YFModel\\AdminInfo.cs",
+              "RelativeDocumentMoniker": "..\\YFModel\\AdminInfo.cs",
+              "ToolTip": "D:\\\u65B0\u5EFA\u6587\u4EF6\u5939\\student\\YFModel\\AdminInfo.cs",
+              "RelativeToolTip": "..\\YFModel\\AdminInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T00:48:33.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Web.config",
+              "DocumentMoniker": "D:\\\u65B0\u5EFA\u6587\u4EF6\u5939\\student\\studentManage\\Web.config",
+              "RelativeDocumentMoniker": "Web.config",
+              "ToolTip": "D:\\\u65B0\u5EFA\u6587\u4EF6\u5939\\student\\studentManage\\Web.config",
+              "RelativeToolTip": "Web.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-05-29T00:48:34.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "StudentInfo.cs",
+              "DocumentMoniker": "D:\\\u65B0\u5EFA\u6587\u4EF6\u5939\\student\\YFModel\\StudentInfo.cs",
+              "RelativeDocumentMoniker": "..\\YFModel\\StudentInfo.cs",
+              "ToolTip": "D:\\\u65B0\u5EFA\u6587\u4EF6\u5939\\student\\YFModel\\StudentInfo.cs",
+              "RelativeToolTip": "..\\YFModel\\StudentInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwoAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T00:48:33.24Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "WorksInfo.cs",
+              "DocumentMoniker": "D:\\\u65B0\u5EFA\u6587\u4EF6\u5939\\student\\YFDAL\\WorksInfo.cs",
+              "RelativeDocumentMoniker": "..\\YFDAL\\WorksInfo.cs",
+              "ToolTip": "D:\\\u65B0\u5EFA\u6587\u4EF6\u5939\\student\\YFDAL\\WorksInfo.cs",
+              "RelativeToolTip": "..\\YFDAL\\WorksInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T00:48:33.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\college\\ASP\\student\\SDM.Utility\\Class1.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\college\\ASP\\student\\SDM.Utility\\Class1.cs",
+              "ToolTip": "D:\\college\\ASP\\student\\SDM.Utility\\Class1.cs",
+              "RelativeToolTip": "..\\..\\..\\college\\ASP\\student\\SDM.Utility\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T00:48:33.289Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DEL.cs",
+              "DocumentMoniker": "D:\\\u65B0\u5EFA\u6587\u4EF6\u5939\\student\\studentManage\\App_Code\\DEL.cs",
+              "RelativeDocumentMoniker": "App_Code\\DEL.cs",
+              "ToolTip": "D:\\\u65B0\u5EFA\u6587\u4EF6\u5939\\student\\studentManage\\App_Code\\DEL.cs",
+              "RelativeToolTip": "App_Code\\DEL.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAADwvw8AAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T00:49:18.487Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "WorkPersonList.aspx",
+              "DocumentMoniker": "D:\\\u65B0\u5EFA\u6587\u4EF6\u5939\\student\\studentManage\\stu\\WorkPersonList.aspx",
+              "RelativeDocumentMoniker": "stu\\WorkPersonList.aspx",
+              "ToolTip": "D:\\\u65B0\u5EFA\u6587\u4EF6\u5939\\student\\studentManage\\stu\\WorkPersonList.aspx",
+              "RelativeToolTip": "stu\\WorkPersonList.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-05-29T00:49:07.94Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Web.config",
+              "DocumentMoniker": "D:\\\u65B0\u5EFA\u6587\u4EF6\u5939\\student\\studentManage\\Web.config",
+              "RelativeDocumentMoniker": "Web.config",
+              "ToolTip": "D:\\\u65B0\u5EFA\u6587\u4EF6\u5939\\student\\studentManage\\Web.config",
+              "RelativeToolTip": "Web.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwcAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-05-29T00:48:33.252Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

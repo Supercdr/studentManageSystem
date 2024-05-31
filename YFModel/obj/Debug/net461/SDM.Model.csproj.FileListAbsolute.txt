@@ -1,0 +1,15 @@
+D:\college\ASP\student\YFModel\bin\Debug\net461\SDM.Model.dll
+D:\college\ASP\student\YFModel\bin\Debug\net461\SDM.Model.pdb
+D:\college\ASP\student\YFModel\obj\Debug\net461\SDM.Model.csproj.CoreCompileInputs.cache
+D:\college\ASP\student\YFModel\obj\Debug\net461\SDM.Model.AssemblyInfoInputs.cache
+D:\college\ASP\student\YFModel\obj\Debug\net461\SDM.Model.AssemblyInfo.cs
+D:\college\ASP\student\YFModel\obj\Debug\net461\SDM.Model.dll
+D:\college\ASP\student\YFModel\obj\Debug\net461\SDM.Model.pdb
+D:\新建文件夹\student\YFModel\obj\Debug\net461\SDM.Model.AssemblyInfo.cs
+D:\新建文件夹\student\YFModel\obj\Debug\net461\SDM.Model.csproj.CoreCompileInputs.cache
+D:\新建文件夹\student\YFModel\obj\Debug\net461\SDM.Model.dll
+D:\新建文件夹\student\YFModel\obj\Debug\net461\SDM.Model.pdb
+D:\新建文件夹\student\YFModel\bin\Debug\net461\SDM.Model.dll
+D:\新建文件夹\student\YFModel\bin\Debug\net461\SDM.Model.pdb
+D:\新建文件夹\student\YFModel\obj\Debug\net461\SDM.Model.csprojAssemblyReference.cache
+D:\college\ASP\student\YFModel\obj\Debug\net461\SDM.Model.csprojAssemblyReference.cache

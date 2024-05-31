@@ -1,0 +1,60 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f8fc;
+    margin: 0;
+    padding: 20px;
+}
+
+.form-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-container h3 {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input, .form-group textarea, .form-group select {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+.form-group #FileUploadVideo, #FileUploadPic {
+        width: 45%;
+    }
+#btnUploadVideo{
+    width:40%;
+
+}
+button, input[type="button"], input[type="submit"] {
+    background: linear-gradient(to right, #4800ff, #6FB1FC);
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.form-group button:hover {
+    background: linear-gradient(to right, #6FB1FC, #4800ff);
+}
+
+.form-group img {
+    display: block;
+    margin-top: 10px;
+}

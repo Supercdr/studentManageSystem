@@ -1,0 +1,48 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f8fc;
+    margin: 0;
+    padding: 20px;
+}
+
+.table-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #dddddd;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.actions img {
+    width: 25px;
+    cursor: pointer;
+}
+#video {
+    width: 50px;
+}
+
+#pic {
+    width: 70px;
+}
+.pager {
+    margin-top: 20px;
+    text-align: center;
+}

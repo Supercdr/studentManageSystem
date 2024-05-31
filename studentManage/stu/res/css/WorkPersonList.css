@@ -1,0 +1,68 @@
+﻿
+.table-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.gridview {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+    .gridview th, .gridview td {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+    }
+
+    .gridview th {
+        background-color: #f2f2f2;
+    }
+
+    .gridview .blue {
+        color: #007bff;
+        text-decoration: none;
+    }
+
+        .gridview .blue:hover {
+            text-decoration: underline;
+        }
+
+.checkbox {
+    display: block;
+    margin: 0 auto;
+}
+
+.pager {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.anpager {
+    display: inline-block;
+}
+
+    .anpager .cpb {
+        background-color: #007bff;
+        color: white;
+        border-radius: 5px;
+        padding: 5px 10px;
+        text-decoration: none;
+    }
+
+        .anpager .cpb:hover {
+            background-color: #0056b3;
+        }
+
+    .anpager a {
+        margin: 0 5px;
+        text-decoration: none;
+        color: #007bff;
+    }
+
+        .anpager a:hover {
+            text-decoration: underline;
+        }

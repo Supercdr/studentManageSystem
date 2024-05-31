@@ -1,0 +1,88 @@
+﻿* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f7f8fc;
+    overflow-x: hidden;
+}
+
+.admin_top {
+    height: 70px;
+    width: 100%;
+    background: linear-gradient(to right, #4800ff, #6FB1FC);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    color: white;
+    border-radius: 10px;
+}
+
+#title {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#account {
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.exit {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background: transparent;
+    border: 1px solid white;
+}
+
+    .exit:hover {
+        background-color: white;
+        color: dodgerblue;
+    }
+
+.sidebar {
+    width: 18%;
+    height: calc(100vh - 90px);
+    padding: 20px;
+    background-color: white;
+    border-right: 1px solid #dddddd;
+    border-radius: 10px;
+}
+
+.sidebar a {
+    display: block;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+    .sidebar a:hover {
+        color: white;
+        background-color: #4A50DB;
+    }
+
+.content {
+    width: 80%;
+    padding: 40px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 0 2%;
+}
+
+.footer {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    color: #555;
+}

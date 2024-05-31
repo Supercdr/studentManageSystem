@@ -1,0 +1,61 @@
+﻿body {
+    background: linear-gradient(to right, #4800ff, #6FB1FC);
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    width: 500px;
+    padding: 20px;
+    background-color: #F4F4F9;
+    border-radius: 10px;
+    text-align: center;
+}
+
+    .login-container h2 {
+        margin-bottom: 20px;
+        color: #2E85EB;
+    }
+
+    .login-container input[type="text"], .login-container input[type="password"] {
+        width: 80%;
+        height: 30px;
+        padding: 10px;
+        margin: 10px 0;
+        border: 1px solid #CCC;
+        border-radius: 5px;
+    }
+
+    .login-container input[type="radio"] {
+        margin: 0 5px;
+    }
+
+#Button1 {
+    width: 80%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 14px;
+    letter-spacing: 20px;
+    font-size: 17px;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(to right, #4800ff, #6FB1FC);
+    color: white;
+    cursor: pointer;
+}
+    #Button1:hover {
+        background: linear-gradient(to right, #6FB1FC, #4800ff);
+    }
+
+    #Button1:active {
+        transform: scale(0.9);
+    }
+#roleContainer {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+}

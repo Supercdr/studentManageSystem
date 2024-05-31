@@ -1,0 +1,19 @@
+﻿
+button, input[type="button"], input[type="submit"] {
+    background: linear-gradient(to right, #4800ff, #6FB1FC);
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+    button, input[type="button"], input[type="submit"]:hover {
+        background: linear-gradient(to right, #6FB1FC, #4800ff);
+    }
+
+    button, input[type="button"], input[type="submit"]:active {
+        transform: scale(0.9);
+    }
