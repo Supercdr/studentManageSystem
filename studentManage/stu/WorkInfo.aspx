@@ -43,7 +43,7 @@
         <div class="form-group">
             <label for="txtWorkPicUrl">图片URL：</label>
             <asp:TextBox ID="txtWorkPicUrl" runat="server" CssClass="input-text"></asp:TextBox>
-            <asp:Image ID="imgsrc" runat="server" CssClass="uploaded-image" />
+            <asp:Image ID="imgsrc" runat="server" Width="20%" Height="20%" CssClass="uploaded-image" />
         </div>
         <div class="form-group">
             <asp:Button ID="btnOK" runat="server" Text="提交" OnClick="btnOK_Click" CssClass="btn" />

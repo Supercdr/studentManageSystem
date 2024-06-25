@@ -23,11 +23,11 @@
         </div>
         <div style="display: flex; margin-top: 20px;">
             <div class="sidebar">
-                <a href="" class="blue">后台首页</a>
-                <a href="WorkInfo.aspx?action=add" class="blue">添加个人学生作品</a>
+                <a href="stu_index.aspx" class="blue">后台首页</a>
+                <a href="WorkInfo.aspx?action=Add" class="blue">添加个人学生作品</a>
                 <a href="Person.aspx" class="blue">个人信息管理</a>
                 <a href="WorkPersonList.aspx" class="blue">查看个人作品</a>
-                <a href="WorkTuanDuiInfo.aspx?action=add" class="blue">添加团队学生作品</a>
+                <a href="WorkTuanDuiInfo.aspx?action=Add" class="blue">添加团队学生作品</a>
                 <a href="WorkTuanDuiList.aspx" class="blue">查看团队学生作品</a>
                 <a href="Lama.aspx" class="blue">AI工具</a>
             </div>

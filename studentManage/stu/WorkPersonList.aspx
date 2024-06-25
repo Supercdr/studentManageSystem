@@ -30,13 +30,13 @@
                 <asp:TemplateField HeaderText="作品视频">
                     <ItemTemplate>
                         <a href='../admin/PlayOnline.aspx?id=<%#Eval("WorkID")%>&action=WorkPerson' title="播放作品视频">
-                            <img src="../imags/11.jpeg" border="0" width="50" height="50" />
+                            <img src="../images/video.png" border="0" width="50" height="50" />
                         </a>
                     </ItemTemplate>
                 </asp:TemplateField>
                 <asp:TemplateField HeaderText="查看详细">
                     <ItemTemplate>
-                        <a href='WorkInfo.aspx?action=check?id=<%#Eval("WorkID")%>&action=StuEdit' title="查看详细" class="blue">查看详细</a>
+                        <a href='WorkInfo.aspx?id=<%#Eval("WorkID")%>&action=Check' title="查看详细" class="blue">查看详细</a>
                     </ItemTemplate>
                 </asp:TemplateField>
             </Columns>

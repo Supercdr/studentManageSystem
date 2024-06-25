@@ -117,8 +117,7 @@ th {
                         </tbody>
                     </table>
                 </FooterTemplate>
-            </asp:Repeater>
-        </div>
+            </asp:Repeater> </div>
         <div class="pager">
             <webdiyer:AspNetPager ID="AspNetPager1" runat="server" CssClass="anpager" CurrentPageButtonClass="cpb" FirstPageText="首页" LastPageText="尾页" NextPageText="下一页" OnPageChanging="AspNetPager1_PageChanging"
                 AlwaysShow="true" PageIndexBoxType="DropDownList" PageSize="20" PrevPageText="上一页" ShowMoreButtons="False" ShowPageIndexBox="Always" SubmitButtonText="Go" TextAfterPageIndexBox="页" TextBeforePageIndexBox="转到">

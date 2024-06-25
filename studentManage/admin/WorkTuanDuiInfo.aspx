@@ -11,6 +11,8 @@
             background-color: #f7f8fc;
             margin: 0;
             padding: 20px;
+            display:flex;
+            justify-content:center;
         }
         .form-container {
             background-color: white;

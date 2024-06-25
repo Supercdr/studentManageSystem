@@ -108,10 +108,10 @@
                         </ItemTemplate>
                     </asp:TemplateField>
                     <asp:BoundField HeaderText="编号" ReadOnly="true" />
-                    <asp:BoundField DataField="UserName" HeaderText="会员名" />
+                    <asp:BoundField DataField="UserName" HeaderText="姓名" />
                     <asp:BoundField DataField="UserNumber" HeaderText="学号" />
                     <asp:BoundField DataField="UserPass" HeaderText="登录密码" />
-                    <asp:BoundField DataField="UserSex" HeaderText="会员性别" />
+                    <asp:BoundField DataField="UserSex" HeaderText="性别" />
                     <asp:BoundField DataField="UserXy" HeaderText="所属院系" />
                     <asp:BoundField DataField="UserZy" HeaderText="所属专业" />
                     <asp:BoundField DataField="UserBj" HeaderText="所属班级" />

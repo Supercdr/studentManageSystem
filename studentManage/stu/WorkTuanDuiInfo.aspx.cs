@@ -92,14 +92,14 @@ namespace studentManage.stu
         private int GetNextWorkID()
         {
             string sql = "select max(WorkID) from WorkTuanDui";
-            object result = SDM.DAL.DbHelperSQL.GetSingle(sql); 
+            object result = SDM.DAL.DbHelperSQL.GetSingle(sql);
             if (result != DBNull.Value && result != null)
             {
                 return Convert.ToInt32(result) + 1;
             }
             else
             {
-                return 1; 
+                return 1;
             }
         }
 
@@ -219,6 +219,26 @@ namespace studentManage.stu
 
         protected void btnSearch3_Click(object sender, EventArgs e)
         {
+            if (txtUser3.Text == "")
+            {
+                SDM.DAL.ShowInfo.Alert("请输入团队成员姓名！", this.Page);
+                return;
+            }
+            else if (bll.Exists(txtUser3.Text.Trim()))
+            {
+                txtUser3ID.Text = Convert.ToString(bll.GetUserIDByUserName(txtUser3.Text.Trim()).Tables["ds"].Rows[0][0].ToString());
+
+            }
+            else
+            {
+                SDM.DAL.ShowInfo.Alert("当前成员不存在，请联系管理员添加此成员！！", this.Page);
+                //获取团队成员1的UserID值。
+                return;
+            }
+        }
+
+        protected void btnSearch1_Click(object sender, EventArgs e)
+        {
             if (txtUser1.Text == "")
             {
                 SDM.DAL.ShowInfo.Alert("请输入团队成员姓名！", this.Page);
@@ -237,7 +257,7 @@ namespace studentManage.stu
             }
         }
 
-        protected void btnSearch1_Click(object sender, EventArgs e)
+        protected void btnSearch2_Click(object sender, EventArgs e)
         {
             if (txtUser2.Text == "")
             {
@@ -247,26 +267,6 @@ namespace studentManage.stu
             else if (bll.Exists(txtUser2.Text.Trim()))
             {
                 txtUser2ID.Text = Convert.ToString(bll.GetUserIDByUserName(txtUser2.Text.Trim()).Tables["ds"].Rows[0][0].ToString());
-
-            }
-            else
-            {
-                SDM.DAL.ShowInfo.Alert("当前成员不存在，请联系管理员添加此成员！！", this.Page);
-                //获取团队成员1的UserID值。
-                return;
-            }
-        }
-
-        protected void btnSearch2_Click(object sender, EventArgs e)
-        {
-            if (txtUser3.Text == "")
-            {
-                SDM.DAL.ShowInfo.Alert("请输入团队成员姓名！", this.Page);
-                return;
-            }
-            else if (bll.Exists(txtUser3.Text.Trim()))
-            {
-                txtUser3ID.Text = Convert.ToString(bll.GetUserIDByUserName(txtUser3.Text.Trim()).Tables["ds"].Rows[0][0].ToString());
 
             }
             else

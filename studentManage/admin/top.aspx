@@ -78,7 +78,6 @@
                 dropdown.style.display = "none";
             }
         }
-        // 点击页面其他地方时隐藏下拉列表
         document.addEventListener("click", function(event) {
             var account = document.getElementById("account");
             var dropdown = document.getElementById("accountDropdown");

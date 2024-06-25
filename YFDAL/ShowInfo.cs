@@ -26,10 +26,8 @@ namespace SDM.DAL
 
         public static void AlertAndRedirect(string message, string redirectUrl, Page page)
         {
-            // 使用JavaScript弹出警告框
             string script = $"<script>alert('{message}'); window.location='{redirectUrl}';</script>";
-
-            // 将脚本注册到页面上
+            
             if (page != null && !page.ClientScript.IsClientScriptBlockRegistered("alertRedirectScript"))
             {
                 page.ClientScript.RegisterStartupScript(page.GetType(), "alertRedirectScript", script);

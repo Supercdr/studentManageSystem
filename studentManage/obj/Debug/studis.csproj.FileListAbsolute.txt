@@ -51,7 +51,6 @@ D:\college\ASP\student\studentManage\bin\roslyn\vbc.rsp
 D:\college\ASP\student\studentManage\bin\roslyn\VBCSCompiler.exe
 D:\college\ASP\student\studentManage\bin\roslyn\VBCSCompiler.exe.config
 D:\college\ASP\student\studentManage\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-D:\college\ASP\student\studentManage\bin\Newtonsoft.Json.dll
 D:\college\ASP\student\studentManage\bin\SDM.BLL.dll
 D:\college\ASP\student\studentManage\bin\SDM.DAL.dll
 D:\college\ASP\student\studentManage\bin\SDM.Model.dll
@@ -59,8 +58,6 @@ D:\college\ASP\student\studentManage\bin\System.AppContext.dll
 D:\college\ASP\student\studentManage\bin\SDM.BLL.pdb
 D:\college\ASP\student\studentManage\bin\SDM.DAL.pdb
 D:\college\ASP\student\studentManage\bin\SDM.Model.pdb
-D:\college\ASP\student\studentManage\bin\Newtonsoft.Json.pdb
-D:\college\ASP\student\studentManage\bin\Newtonsoft.Json.xml
 D:\college\ASP\student\studentManage\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 D:\college\ASP\student\studentManage\obj\Debug\studis.csprojAssemblyReference.cache
 D:\college\ASP\student\studentManage\obj\Debug\studis.csproj.CoreCompileInputs.cache

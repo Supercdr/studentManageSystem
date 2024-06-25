@@ -8,40 +8,40 @@
     <title></title>
     <style>
     body {
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* 使用更现代的字体 */
-        background-color: #f0f4f8; /* 设定一个更柔和的背景色 */
-        color: #333; /* 文字颜色设置为深灰色，增强可读性 */
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+        background-color: #f0f4f8; 
+        color: #333; 
         margin: 0;
-        padding: 15px; /* 增加页面的内边距 */
-        text-align: center; /* 文字居中显示 */
+        padding: 15px; 
+        text-align: center; 
     }
 
     #form1 {
-        background-color: white; /* 表单背景颜色 */
-        width: 80%; /* 表单宽度 */
-        margin: 0 auto; /* 居中显示 */
-        padding: 20px; /* 表单内边距 */
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 添加阴影效果 */
-        border-radius: 8px; /* 边角圆滑处理 */
+        background-color: white; 
+        width: 80%; 
+        margin: 0 auto;
+        padding: 20px; 
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  
+        border-radius: 8px;  
     }
 
     p {
-        font-size: 16px; /* 设置字体大小 */
-        color: black; /* 字体颜色 */
-        line-height: 1.6; /* 行间距 */
+        font-size: 16px;  
+        color: black; 
+        line-height: 1.6;  
     }
 
     a {
-        color: darkblue; /* 链接颜色 */
-        text-decoration: none; /* 去除下划线 */
+        color: darkblue;  
+        text-decoration: none; 
     }
 
     a:hover {
-        text-decoration: underline; /* 鼠标悬停时显示下划线 */
+        text-decoration: underline;  
     }
 
     .blue {
-        color: darkblue; /* 特别强调的蓝色字体 */
+        color: darkblue;  
     }
 
     </style>

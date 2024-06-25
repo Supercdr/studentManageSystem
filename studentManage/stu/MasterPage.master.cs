@@ -17,7 +17,7 @@ namespace studentManage.stu
             || Session["username"] == null || Session["username"].ToString() == "")
             {
                 SDM.DAL.ShowInfo.Alert("请登录！", this.Page);
-                Response.Redirect("../admin/login.aspx");
+                Response.Redirect("../index.aspx");
             }
             else
             {
@@ -28,7 +28,7 @@ namespace studentManage.stu
 
         protected void btnExit_Click(object sender, EventArgs e)
         {
-            Response.Write("<script>confirm('确定退出此账号吗？');parent.location.href='../admin/login.aspx'</script>");
+            Response.Write("<script>confirm('确定退出此账号吗？');parent.location.href='../index.aspx'</script>");
         }
     }
 }

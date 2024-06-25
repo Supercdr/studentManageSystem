@@ -242,9 +242,7 @@ namespace SDM.DAL
             }
             catch (Exception ex)
             {
-                // 在这里记录异常信息，或者进行其他的错误处理操作
-                // 例如，可以将异常信息写入日志文件，或者显示给用户
-                Console.WriteLine("An error occurred while executing database query: " + ex.Message);
+                Console.WriteLine("查询数据库失败: " + ex.Message);
                 return null;
             }
         }

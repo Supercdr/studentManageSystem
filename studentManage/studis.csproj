@@ -51,7 +51,7 @@
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Newtonsoft.Json, Version=13.0.1.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\stu\studis\Bin\Newtonsoft.Json.dll</HintPath>
+      <HintPath>bin\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="System.AppContext, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>packages\System.AppContext.4.3.0\lib\net46\System.AppContext.dll</HintPath>
@@ -125,7 +125,7 @@
     <Content Include="stu\WorkTuanDuiInfo.aspx" />
     <Content Include="stu\WorkTuanDuiList.aspx" />
     <Content Include="Global.asax" />
-    <Content Include="admin\login.aspx" />
+    <Content Include="index.aspx" />
     <Content Include="admin\res\echarts\echarts.js" />
     <Content Include="admin\res\echarts\echarts.min.js" />
     <Content Include="test.aspx" />
@@ -242,12 +242,12 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="admin\login.aspx.cs">
-      <DependentUpon>login.aspx</DependentUpon>
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="admin\login.aspx.designer.cs">
-      <DependentUpon>login.aspx</DependentUpon>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
     </Compile>
     <Compile Include="Handler.ashx.cs">
       <DependentUpon>Handler.ashx</DependentUpon>

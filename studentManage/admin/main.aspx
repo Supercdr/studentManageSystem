@@ -19,9 +19,10 @@
         }
         #container{
             background-color:white;
-            padding:20px;
+            padding:30px;
             border-radius:20px;
             display:flex;
+            justify-content:center;
             flex-direction:column;
         }
         #BarChart{
@@ -59,7 +60,11 @@
                 dataType: 'json',
                 success: function (data) {
                     //console.log(data);
-                    function getCityNameFromChineseAddress(address) {
+                    function getCityName(address) {
+                        if (address == null) {
+                            console.error('Address is null or undefined.');
+                            return null;
+                        }
                         const regex = /^(?<province>.+?(省|自治区|市))?(?<city>[^市]+市)/;
                         const match = address.match(regex);
  
@@ -68,16 +73,15 @@
                         }
                         return null;
                     }
-                    
-                var processedData = data.map(function (item) {
-                    var cityName = getCityNameFromChineseAddress(item.name);
-                    return {
-                        name: cityName || "未知城市", 
-                        value: item.value,
-                        stuname: item.stuname
-                    };
-                });
-                //console.log(processedData);
+                    var processedData = data.map(function (item) {
+                        var cityName = getCityName(item.name);
+                        return {
+                            name: cityName || "未知城市", 
+                            value: item.value,
+                            stuname: item.stuname
+                        };
+                    });
+                    //console.log(processedData);
                     var geoCoordMap = {
                     "拉萨":[91.132212,29.660361],
                     "阜阳": [115.819729, 32.896969],
@@ -138,7 +142,6 @@
                     return res;
                 };
                 var succeedData = convertData(processedData);
-                //console.log(succeedData);
                 const convertScatterData=function(data){
 				        var res=[];
 				        var temp=[];
@@ -173,9 +176,9 @@
                     },
                     tooltip: {
                         trigger: 'item',
-                        //formatter: function(params) {
-                        //   return `${params.data.stuname}&nbsp;家庭地址: ${params.data.name} <br/> ${params.data.coords}`;
-                        //}
+                        formatter: function(params) {
+                           return `${params.data.stuname}&nbsp;家庭地址: ${params.data.name} <br/> ${params.data.coords}`;
+                        }
                     },
                     geo: {
                         map: 'china',
@@ -187,8 +190,8 @@
                         },
                         itemStyle: {
                             normal: {
-                                areaColor:'black', // 地图区域的颜色
-                                borderColor: '#0692a4', // 边界线颜色
+                                areaColor:'black',
+                                borderColor: '#0692a4', 
                             },
                             emphasis: {
                                 areaColor: '#2a333d'
@@ -252,7 +255,6 @@
             url: "../Handler.ashx?type=BarChart",
             dataType: 'json',
             success: function (data) {
-                //console.log(data);
                 var grades = ["2020", "2021", "2022", "2023"];
                 var MajorData = data.reduce((prev, item) => {
                     if (!prev[item.Major]) {
@@ -264,15 +266,21 @@
                     }
                     return prev;
                 }, {});
-                //console.log(MajorData);
+
                 var seriesData = Object.keys(MajorData).map(major => ({
                     name: major,
                     type: 'bar',
                     stack: 'total',
+                    label: {
+                        show: true,
+                        formatter: function (params) {
+                            // 只显示非0的数值
+                            return params.value !== 0 ? params.value : '';
+                        }
+                    },
                     data: MajorData[major],
                     emphasis: { focus: 'series' }
                 }));
-                //console.log(seriesData);
 
                 var BarOption = {
                     title: {
@@ -293,7 +301,7 @@
                     },
                     grid: {
                         left: '3%',
-                        right: '17%',
+                        right: '25%',
                         bottom: '3%',
                         containLabel: true
                     },
@@ -349,7 +357,7 @@
                                         textStyle: {
                                             align: 'left'
                                         },
-                                        left: '3%',
+                                        left: '6%',
                                     },
                                     tooltip: {
                                         trigger: 'item',
@@ -375,7 +383,7 @@
                                             { },
                                             {
                                                 r0: '10%',
-                                                r: '45%',
+                                                r: '35%',
                                                 itemStyle: {
                                                     borderWidth: 2
                                                 },
@@ -384,12 +392,10 @@
                                                 }
                                             },
                                             {
-                                                r0: '30%',
+                                                r0: '35%',
                                                 r: '70%',
                                                 label: {
                                                     align:'left',
-                                                    // textShadowBlur: 5,
-                                                    //textShadowColor: '#3333ff',
                                                     padding: 13,
                                                     silent: false
                                                 },

@@ -11,7 +11,6 @@ namespace studentManage.admin
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            //从查询字符串中读取需要删除的id值
             int id = int.Parse(Request.QueryString["id"]);
             if (!IsPostBack)
             {

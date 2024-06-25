@@ -22,12 +22,12 @@ namespace studentManage.admin
         protected void btnLoginOut_Click(object sender, EventArgs e)
         {
             Session.Clear();
-            Response.Write("<script>alert('注销成功！');parent.location.href='login.aspx'</script>");
+            Response.Write("<script>alert('注销成功！');parent.location.href='../index.aspx'</script>");
         }
 
         protected void btnExit_Click(object sender, EventArgs e)
         {
-            Response.Write("<script>confirm('确定退出此账号吗？');parent.location.href='login.aspx'</script>");
+            Response.Write("<script>confirm('确定退出此账号吗？');parent.location.href='../index.aspx'</script>");
         }
     }
 }

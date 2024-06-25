@@ -18,7 +18,6 @@ namespace studentManage.admin
                 if (!string.IsNullOrEmpty(Request.QueryString["action"])){
                     switch (Request.QueryString["action"].ToString().Trim())
                     {
-                        //当需要添加管理员时，显示提交按钮，隐藏保存按钮
                         case "Add":
                             btnEdit.Visible = false;
                             btnAdd.Visible = true;
@@ -36,14 +35,17 @@ namespace studentManage.admin
                 }
             }
         }
-        //定义一个bind方法，将管理员信息绑定到Repeater控件上
         protected void bind()
         {
-            //调用BLL层中的函数返沪所有管理员账户信息，并绑定到Repeater控件
             Repeater1.DataSource = bll.GetAllList();
             Repeater1.DataBind();
         }
-
+        protected SDM.Model.AdminInfo CreateModel()
+        {
+            model.AdminName = txtAdminName.Text.Trim();
+            model.AdminPass = txtPwd.Text.Trim();
+            return model;
+        }
         protected void btnEdit_Click(object sender, EventArgs e)
         {
             model = CreateModel();
@@ -73,12 +75,6 @@ namespace studentManage.admin
                 bind();
             }
         }
-        //createmodel方法用于构造一个管理员数据模型对象
-        protected SDM.Model.AdminInfo CreateModel()
-        {
-            model.AdminName = txtAdminName.Text.Trim();
-            model.AdminPass = txtPwd.Text.Trim();
-            return model;
-        }
+        
     }
 }

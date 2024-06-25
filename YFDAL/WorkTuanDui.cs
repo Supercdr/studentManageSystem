@@ -267,14 +267,14 @@ namespace SDM.DAL
             strSql.Append("select w.WorkID, w.WorkName, w.WorkCate, w.WorkTime, ");
             strSql.Append("w.WorkUrl, w.WorkDes, w.WorkPicUrl, s.UserName ");
             strSql.Append("from WorkTuanDui w ");
-            strSql.Append("INNER JOIN StudentsInfo s ON w.UserID_1 = s.UserID ");
+            strSql.Append("inner join StudentsInfo s on w.UserID_1 = s.UserID ");
             if (!string.IsNullOrEmpty(where.Trim()))
             {
-                strSql.Append("WHERE " + where + " ");
+                strSql.Append("where " + where + " ");
             }
-            strSql.Append("AND s.UserName IN (SELECT s2.UserName FROM StudentsInfo s2 WHERE s2.UserNumber = s.UserNumber) ");
-            strSql.Append("ORDER BY " + order + " ");
-            strSql.Append("OFFSET @min ROWS FETCH NEXT @max ROWS ONLY");
+            strSql.Append("and s.UserName in (select s2.UserName from StudentsInfo s2 where s2.UserNumber = s.UserNumber) ");
+            strSql.Append("order by " + order + " ");
+            strSql.Append("offset @min rows fetch next @max rows only");
 
             SqlParameter[] parameters =
             {
